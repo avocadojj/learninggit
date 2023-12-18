@@ -6,9 +6,7 @@ from tensorflow.keras.utils import load_img
 from tensorflow.keras.utils import img_to_array
 from tensorflow import expand_dims
 from tensorflow.nn import softmax
-from numpy import argmax
-from numpy import max
-from numpy import array
+from numpy import argmax, max, array
 from json import dumps
 from uvicorn import run
 import os
