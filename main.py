@@ -1,7 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware,load_model
-from tensorflow.keras.utils import get_file 
-from tensorflow.keras.utils import load_img 
+from tensorflow.keras.utils import get_file, load_img 
 from tensorflow.keras.utils import img_to_array
 from tensorflow import expand_dims
 from tensorflow.nn import softmax
