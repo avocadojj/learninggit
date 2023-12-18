@@ -12,6 +12,7 @@ from numpy import array
 from json import dumps
 from uvicorn import run
 import os
+import time
 
 app = FastAPI()
 
